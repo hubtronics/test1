@@ -1,0 +1,104 @@
+.textNav {
+  /* position: relative; */
+  color: #00bbff;
+  background: #61616170;
+  width: 700px;
+  height: 600px;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+.textNav h1:nth-child(1) {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.textNav h1:nth-child(2) {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+
+.textNav h1:nth-child(3) {
+  color: #ffae00;
+  font-size: 2.8em;
+  border-bottom: 20px;
+}
+
+.textNav h1:nth-child(4) {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textNav .ctaBtn {
+  background: #ffae00;
+  color: var(--nav-font-color);
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  border: none;
+  width: 200px;
+}
+
+.textNav .ctaBtn:hover {
+  background: #00bbff;
+  color: #fff;
+}
+
+/* For devices with a width up to 1376px */
+@media screen and (max-width: 1376px) {
+  .textNav {
+    width: 00px;
+    height: auto;
+    font-size: small;
+  }
+
+  .textNav h1:nth-child(1),
+  .textNav h1:nth-child(2),
+  .textNav h1:nth-child(3),
+  .textNav h1:nth-child(4),
+  .textNav .ctaBtn {
+    font-size: 1.5em;
+  }
+
+  .textNav .ctaBtn {
+    width: 150px;
+    padding: 15px 1px;
+  }
+}
+
+/* For devices with a width up to 768px */
+@media screen and (max-width: 768px) {
+  .textNav {
+    width: 300px;
+    height: auto;
+    font-size: small;
+  }
+
+  .textNav h1:nth-child(1),
+  .textNav h1:nth-child(2),
+  .textNav h1:nth-child(3),
+  .textNav h1:nth-child(4),
+  .textNav .ctaBtn {
+    font-size: 1em;
+  }
+  .textNav .ctaBtn {
+    width: 150px;
+  }
+}
+
+/* For devices with a width starting from 769px */
+@media screen and (min-width: 769px) {
+  .textNav {
+    width: 600px;
+    height: auto;
+    font-size: small;
+  }
+}

@@ -1,0 +1,111 @@
+:root {
+  --nav-font-color: #01125e;
+}
+
+.navbarContainer {
+  background-image: url("../../assets/banner_images/oemvwsk_banner_4_parts_v7.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  flex-wrap: wrap;
+  /* position: absolute; */
+}
+
+.navbarContainer .navbar {
+  padding: 50px 50px 15px 50px;
+  border-bottom: 3px solid #ffa600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarContainer .navbar .Left,
+.navbarContainer .navbar .Right {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.navbarContainer .navbar .Left ul,
+.navbarContainer .navbar .Right ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbarContainer .navbar .Right ul {
+  gap: 10px;
+}
+
+.navbarContainer .navbar .Left ul li,
+.navbarContainer .navbar .Right ul li {
+  font-weight: 600;
+  font-size: 1.2em;
+  list-style: none;
+  transition: 0.5s ease-out;
+}
+
+.navbarContainer .navbar .Left ul li .navLink,
+.navbarContainer .navbar .Right ul li .navLink {
+  color: var(--nav-font-color);
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+.navbarContainer .navbar .Left ul li .navLink:hover,
+.navbarContainer .navbar .Right ul li .navLink:hover {
+  background: #000;
+  color: #fff;
+}
+
+.navbarContainer .navbar .Left ul li .navLink:nth-child(1):hover {
+  background: none;
+}
+
+.logo {
+  color: #ffa600;
+}
+
+.logo2 {
+  color: var(--nav-font-color);
+}
+
+.logo,
+.logo2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.navbarContainer .navbar .Left ul li .notActive,
+.navbarContainer .navbar .Right ul li .notActive {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  transition: 0.5s ease-out;
+}
+
+.navbarContainer .navbar .Left ul li .Active,
+.navbarContainer .navbar .Right ul li .Active {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  transition: 0.5s ease-out;
+}
+
+.navbarContainer .navbar .Left ul li .notActive:hover,
+.navbarContainer .navbar .Right ul li .notActive:hover {
+  background: #000;
+  color: #fff;
+}
+
+.navbarContainer .navbar .Left ul li .Active:hover,
+.navbarContainer .navbar .Right ul li .Active:hover {
+  background: #ffa600;
+  color: #000;
+}

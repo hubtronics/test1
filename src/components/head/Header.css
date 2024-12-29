@@ -1,0 +1,17 @@
+.header {
+  background: transparent;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Link .Parts,
+.Link .dot {
+  color: orangered;
+}
