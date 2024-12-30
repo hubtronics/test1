@@ -10,15 +10,33 @@ import Cart from "./pages/cart/Cart";
 import Account from "./pages/account/Account";
 import Login from "./admin/login/Login";
 import About from "./pages/about/About";
+import { Suspense } from "react";
+import Fallback from "./components/fallback/Fallback";
 
 const App = () => {
   return (
     <Router>
       {/* <Header /> */}
+      <Fallback />
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route
+          exact
+          path="/"
+          element={
+            <Suspense fallback=<Fallback />>
+              <Home />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/shop"
+          element={
+            <Suspense fallback=<Fallback />>
+              <Shop />
+            </Suspense>
+          }
+        />
         <Route path="/cart" element={<Cart />} />
         <Route path="/account" element={<Account />} />
         <Route path="/blog" element={<Blog />} />

@@ -1,0 +1,26 @@
+.loading-container {
+  background: #00002e;
+  height: 100vh;
+  color: #f0f0f0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.loading-container h1 {
+  font-size: 5em;
+}
+
+.loading-dot {
+  opacity: 0.2;
+  font-size: 5em;
+  color: #ffae00;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.activeDot {
+  opacity: 1;
+  font-size: 5em;
+  color: #ffae00;
+}
