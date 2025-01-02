@@ -1,0 +1,27 @@
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height for horizontal scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #ffae00; /* Light gray track */
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker gray thumb */
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00002e; /* Even darker gray on hover */
+}
+
+/* Style the scrollbar corner (if applicable, for both axes) */
+::-webkit-scrollbar-corner {
+  background: #00002e; /* Matches the track background */
+}

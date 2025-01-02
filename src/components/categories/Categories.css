@@ -1,3 +1,9 @@
+:root {
+  --button-background-color: #cacaca;
+  --button-background-color-hover: #ffae00;
+  --button-text-color: #01125e;
+}
+
 .catContainer {
   padding: 20px;
   width: 80%;
@@ -10,6 +16,7 @@
   padding: 30px;
   color: var(--nav-font-color);
   align-items: center;
+  font-size: 2.5em;
 }
 
 .cardsContainer {
@@ -39,22 +46,18 @@
 
 .cardLink {
   text-decoration: none;
-  color: #333;
+  color: var(--button-text-color);
 }
 
 .cardLink h4 {
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
   color: var(--nav-font-color);
   padding: 20px;
   border-radius: 5px;
-  background: #cacaca;
+  background: var(--button-background-color);
 }
 
 .cardLink h4:hover {
-  background: #ffae00;
-}
-
-.cardLink:hover {
-  color: #007bff;
+  background: var(--button-background-color-hover);
 }

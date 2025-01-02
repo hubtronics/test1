@@ -1,4 +1,7 @@
+import { Suspense } from "react";
+
 import "./App.css";
+// import "./scrollbar/Scrollbar.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Header from "./components/head/Header";
@@ -10,14 +13,13 @@ import Cart from "./pages/cart/Cart";
 import Account from "./pages/account/Account";
 import Login from "./admin/login/Login";
 import About from "./pages/about/About";
-import { Suspense } from "react";
 import Fallback from "./components/fallback/Fallback";
 
 const App = () => {
   return (
     <Router>
       {/* <Header /> */}
-      <Fallback />
+      {/* <Fallback /> */}
       <Navbar />
       <Routes>
         <Route

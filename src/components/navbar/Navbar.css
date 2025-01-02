@@ -3,7 +3,7 @@
 }
 
 .navbarContainer {
-  background-image: url("../../assets/banner_images/oemvwsk_banner_4_parts_v7.webp");
+  background-image: url("/assets/banner_images/oemvwsk_banner_4_parts_v7.webp");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -90,7 +90,7 @@
 
 .navbarContainer .navbar .Left ul li .Active,
 .navbarContainer .navbar .Right ul li .Active {
-  background: #000;
+  background: #01125e;
   color: #fff;
   text-decoration: none;
   padding: 15px 20px;
@@ -100,12 +100,12 @@
 
 .navbarContainer .navbar .Left ul li .notActive:hover,
 .navbarContainer .navbar .Right ul li .notActive:hover {
-  background: #000;
+  background: #01125e;
   color: #fff;
 }
 
 .navbarContainer .navbar .Left ul li .Active:hover,
 .navbarContainer .navbar .Right ul li .Active:hover {
   background: #ffa600;
-  color: #000;
+  color: #01125e;
 }

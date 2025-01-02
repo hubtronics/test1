@@ -1,0 +1,101 @@
+.shop-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.shop-title h2 {
+  font-size: 2.5em;
+  color: #01125e;
+}
+
+.shop-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.shop-container .shop-card-container {
+  display: flex;
+  flex-direction: column;
+  /* background: #e7e7e777; */
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 290px;
+  margin: 10px;
+  transition: 0.5s ease-out;
+}
+
+.shop-container .shop-card-container:hover {
+  box-shadow: 2px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.shop-container .shop-card-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #01125e;
+}
+
+.shop-container .shop-card-container .shop-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-container .shop-card {
+  background: rgb(255, 0, 0);
+  padding: 20px;
+}
+
+.shop-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.shop-text h3 {
+  color: #01125e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shop-text p {
+  color: #01125e;
+}
+
+.shop-text .shop-price {
+  color: green;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container .shop-button {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: #01125e;
+  background: var(--button-background-color);
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.button-link {
+  text-decoration: none;
+  color: var(--button-text-color);
+}
+
+.btn-container .shop-button:hover {
+  background: var(--button-background-color-hover);
+}

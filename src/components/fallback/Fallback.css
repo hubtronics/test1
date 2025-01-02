@@ -9,10 +9,11 @@
 
 .loading-container h1 {
   font-size: 5em;
+  margin-bottom: 200px;
 }
 
 .loading-dot {
-  opacity: 0.2;
+  opacity: 0.1;
   font-size: 5em;
   color: #ffae00;
   align-items: center;
