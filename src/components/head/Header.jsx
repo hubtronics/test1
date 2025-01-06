@@ -7,7 +7,7 @@ const Header = () => {
       <Link to="/" className="Link">
         <h3>
           <span className="Parts">Parts</span>Tronik&nbsp;
-          <span className="dot">.</span>
+          <span className="dot"></span>
         </h3>
       </Link>
     </header>

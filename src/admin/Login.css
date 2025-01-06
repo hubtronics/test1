@@ -1,0 +1,141 @@
+/* The background layer with blur */
+.background-blur {
+  position: absolute;
+  top: -20px; /* Extend beyond the top */
+  left: -20px; /* Extend beyond the left */
+  width: calc(100% + 40px); /* Add extra width */
+  height: calc(100% + 40px); /* Add extra height */
+  background: url('/assets/banner_images/oemvwsk_banner_4_parts_v7.webp');
+  background-size: cover;
+  filter: blur(8px);
+  z-index: 1;
+  transition: filter 0.3s ease-in-out;
+}
+  
+  /* The login container remains unaffected by the blur */
+  .login-container {
+    position: fixed; /* Fixed position for center alignment */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure the login container is on top */
+  }
+  
+  .container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .form-box-login {
+    background-color: rgb(151, 175, 190);
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-form-login {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-buttons button {
+    margin: 10px 0;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .message span {
+    cursor: pointer;
+  }
+  
+  .message span:hover {
+    text-decoration: underline;
+  }
+  
+  /* For input type="password" toggle visibility */
+  .password-toggle {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  .password-toggle:hover {
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  /* .close-button {
+    position: absolute;
+    top: 0.1%;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-button:hover {
+    color: #ff0000;
+  }
+   */
+   .userAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  .welcomeMessage {
+    display: flex;
+    align-items: center;
+  }
+  
+  
