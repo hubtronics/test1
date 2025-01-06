@@ -109,7 +109,7 @@ const Categories = () => {
 
   return (
     <div className="catContainer">
-      <h2>Categories</h2>
+      <h21>Categories</h21>
       <div className="cardsContainer">
         {categories.map((category, index) => (
           <div className="card" key={index}>

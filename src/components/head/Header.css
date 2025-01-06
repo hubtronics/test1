@@ -8,10 +8,12 @@
 
 .Link {
   text-decoration: none;
-  color: #0f0d0d;
+  color: #f8f8f8;
 }
 
 .Link .Parts,
 .Link .dot {
   color: orangered;
 }
+
+.

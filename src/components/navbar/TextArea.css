@@ -1,9 +1,9 @@
 .textNav {
   /* position: relative; */
   color: #00bbff;
-  background: #61616170;
-  width: 700px;
-  height: 600px;
+  background: #c9c1c170;
+  width: 300px;
+  height: 30px;
   padding: 55px;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .textNav h1:nth-child(3) {
-  color: #ffae00;
+  color: #0c0c0b;
   font-size: 2.8em;
   border-bottom: 20px;
 }

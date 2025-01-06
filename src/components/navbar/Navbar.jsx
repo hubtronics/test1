@@ -115,6 +115,7 @@ const Navbar = () => {
       });
   };
 
+
   const handleAccountClick = () => {
     setShowAccountMenu(!showAccountMenu);
   };
@@ -125,9 +126,9 @@ const Navbar = () => {
         <div className="Left">
           <ul>
             <li>
-              <Link to="/" className="navLink">
-                <span className="logo">Parts</span>
-                <span className="logo2">Tronik</span>
+              <Link to="/" className="navLink1">
+              <span className="logo logo-parts">Parts</span>
+              <span className="logo logo-link">Link</span>
               </Link>
             </li>
           </ul>
