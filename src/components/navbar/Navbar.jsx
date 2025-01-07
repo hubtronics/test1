@@ -4,6 +4,7 @@ import { auth } from "../../../firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import "./Navbar.css"; // Your CSS file
 import "./TextArea.css";
+import {sendPasswordResetEmail} from "../../../firebase";
 
 const Navbar = () => {
   const [user, setUser] = useState(null); // Store user information
@@ -202,7 +203,7 @@ const Navbar = () => {
                         >
                           Use WhatsApp
                         </a>
-                        <Link to="/change-password" className="accountMenuItem">
+                        <Link to="/sendPasswordResetEmail" className="accountMenuItem">
                           Change Password
                         </Link>
                         <button

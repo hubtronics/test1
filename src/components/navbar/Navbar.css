@@ -7,13 +7,29 @@
 }
 
 .navbarContainer {
-  background-image: url('/assets/banner_images/oemvwsk_banner_4_parts_v7.webp');
+  background-image: url('/assets/banner_images/audi.png');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   flex-wrap: wrap;
+  animation: carousel 12s infinite;
+}
+
+@keyframes carousel {
+  0% {
+    background-image: url('/assets/banner_images/audi.png');
+  }
+  33.33% {
+    background-image: url('/assets/banner_images/footer-nl-bg.jpg');
+  }
+  66.66% {
+    background-image: url('/assets/banner_images/vw.png');
+  }
+  100% {
+    background-image: url('/assets/banner_images/audi.png');
+  }
 }
 
 .navbarContainer .navbar {
@@ -39,6 +55,7 @@
 
 .navbarContainer .navbar .Right ul {
   gap: 10px;
+  padding: auto;
 }
 
 .navbarContainer .navbar .Left ul li,
@@ -110,7 +127,7 @@
   position: absolute;
   top: 30px;
   left: 0;
-  background: white;
+  background: rgb(3, 3, 3);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 10px;
@@ -224,6 +241,7 @@
   color: white; /* Change "Link" to white on hover */
   font-size: 2rem;
 }
+
 
 
 

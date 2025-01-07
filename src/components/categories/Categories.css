@@ -1,5 +1,5 @@
 :root {
-  --button-background-color: #000000;
+  --button-background-color: #dbd2d2;
   --button-background-color-hover: #ffae00;
   --button-text-color: #01125e;
 }
@@ -8,17 +8,19 @@
   padding: 20px;
   width: 75%;
   justify-content: center;
-  background-color: #f3eeee;
+  background-color: #b48c8c;
+  border-radius: 10px;
 }
 
 .catContainer h21 {
-  background-color: rgb(63, 138, 156);
+  background-color: rgba(182, 161, 161, 0.205);
   display: flex;
   justify-content: center;
   padding: 10px;
   color: var(--nav-font-color);
   align-items: center;
   font-size: 2.5em;
+  border-radius: 10px;
 }
 
 .cardsContainer {
@@ -37,7 +39,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(34, 117, 196, 0.3);
 }
 
 .card .cardImage {

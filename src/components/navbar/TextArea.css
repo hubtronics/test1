@@ -1,6 +1,6 @@
 .textNav {
   /* position: relative; */
-  color: #00bbff;
+  color: #1b1e1f;
   background: #c9c1c170;
   width: 300px;
   height: 30px;
@@ -48,7 +48,7 @@
 }
 
 .textNav .ctaBtn:hover {
-  background: #00bbff;
+  background: #ccd3d6;
   color: #fff;
 }
 
