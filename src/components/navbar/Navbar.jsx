@@ -129,7 +129,7 @@ const Navbar = () => {
             <li>
               <Link to="/" className="navLink1">
               <span className="logo logo-parts">Parts</span>
-              <span className="logo logo-link">Link</span>
+              <span className="logo logo-link">Tronic</span>
               </Link>
             </li>
           </ul>
@@ -199,7 +199,7 @@ const Navbar = () => {
                           href="https://wa.me/+254727648671"
                           className="accountMenuItem"
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="noopener noref errer"
                         >
                           Use WhatsApp
                         </a>
@@ -228,15 +228,15 @@ const Navbar = () => {
 
       <div className="textNav">
         <h1>
-          Welcome to<span className="logo">...</span>
+          Welcome to<span className="logo"></span>
         </h1>
         <h1>
           <span className="logo">Parts</span>
           <span className="logo2">Tronik</span>
-          <span className="logo">.</span>
+          <span className="logo"></span>
         </h1>
         <h1>
-          <em>Volkswagen | Audi</em>
+          Volkswagen | Audi
         </h1>
         <h1>In Peak Condition With Genuine Parts</h1>
         <Link to="/shop">

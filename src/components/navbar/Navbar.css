@@ -11,7 +11,10 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+  background-position-y: center;
   width: 100%;
+  
+  align-self: center;
   height: 60vh;
   flex-wrap: wrap;
   animation: carousel 12s infinite;
@@ -56,6 +59,7 @@
 .navbarContainer .navbar .Right ul {
   gap: 10px;
   padding: auto;
+  width: ;
 }
 
 .navbarContainer .navbar .Left ul li,
@@ -225,7 +229,7 @@
 }
 
 .logo-link {
-  color: black;
+  color: rgb(247, 252, 0);
   transition: color 0.3s ease;
   font-size: 2rem;
   font-weight: bolder;
@@ -242,7 +246,22 @@
   font-size: 2rem;
 }
 
+/* Style the search input box */
+.search-container {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  width: 400px;
+  z-index: 10; /* Ensure it stays above other elements */
+}
 
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
 
 
 
