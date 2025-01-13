@@ -72,4 +72,9 @@
   background: var(--button-background-color-hover);
 }
 
+body {
+  margin: 0;
+}
+
+
 
